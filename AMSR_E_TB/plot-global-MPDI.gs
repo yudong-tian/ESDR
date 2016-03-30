@@ -1,0 +1,61 @@
+
+'open spectra-global-VA-Apr-Jun05.ctl'
+'open spectra-global-HA-Apr-Jun05.ctl'
+'set grads off' 
+'set gxout shaded'
+'d (v6-h6.2)/(v6+h6.2)*600' 
+'cbarn'
+'draw title AMSR-E MPDI*600 6.9G 20050401' 
+'printim MPDI6-global-sm.gif gif white x600 y400'
+'printim MPDI6-global.gif gif white x1200 y800'
+
+'c'
+'set grads off'
+'set gxout shaded'
+'d (v10-h10.2)/(v10+h10.2)*600' 
+'cbarn'
+'draw title AMSR-E MPDI*600 10.65G 20050401'       
+'printim MPDI10-global-sm.gif gif white x600 y400'
+'printim MPDI10-global.gif gif white x1200 y800'
+
+'c'
+'set grads off'
+'set gxout shaded'
+'d (v18-h18.2)/(v18+h18.2)*600' 
+'cbarn'
+'draw title AMSR-E MPDI*600 18.7G 20050401'   
+'printim MPDI18-global-sm.gif gif white x600 y400'
+'printim MPDI18-global.gif gif white x1200 y800'
+
+'c'
+'set grads off'
+'set gxout shaded'
+'d (v23-h23.2)/(v23+h23.2)*600'
+'cbarn'
+'draw title AMSR-E MPDI*600 23G 20050401'  
+'printim MPDI23-global-sm.gif gif white x600 y400'
+'printim MPDI23-global.gif gif white x1200 y800'
+
+'c'
+'set grads off'
+'set gxout shaded'
+'d (v36-h36.2)/(v36+h36.2)*600'
+'cbarn'
+'draw title AMSR-E MPDI*600 36G 20050401'
+'printim MPDI36-global-sm.gif gif white x600 y400'
+'printim MPDI36-global.gif gif white x1200 y800'
+
+'c'
+'set grads off'
+'set gxout shaded'
+'d (v89-h89.2)/(v89+h89.2)*600'
+'cbarn'
+'draw title AMSR-E MPDI*600 89G 20050401'
+'printim MPDI89-global-sm.gif gif white x600 y400'
+'printim MPDI89-global.gif gif white x1200 y800'
+
+'quit'
+
+
+
+
